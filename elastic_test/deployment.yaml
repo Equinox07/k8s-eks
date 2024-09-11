@@ -19,9 +19,9 @@ spec:
           image: elasticsearch:8.15.1
           resources:
             requests:
-              memory: 4Gi
+              memory: 1Gi
             limits:
-              memory: 5Gi
+              memory: 2Gi
           ports:
             - containerPort: 9200
             - containerPort: 9300
